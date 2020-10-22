@@ -14,10 +14,7 @@ TagManager:
   - 
   - 
   - 
-<<<<<<< HEAD
   - 
-=======
->>>>>>> parent of 651c593... Merge branch 'main' of https://github.com/sgomgua/JuegoUnity into main
   - 
   - 
   - 
@@ -41,18 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 3087275153
-    locked: 0
-  - name: luz
-    uniqueID: 3628442743
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Player
-    uniqueID: 2459509875
-    locked: 0
-  - name: CapaSuperior
-    uniqueID: 3478642643
     locked: 0

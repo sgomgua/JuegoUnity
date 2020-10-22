@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     private float movX, movY, jump;
     private Vector2 forceVector;
     public Animator anim;
+    public float maxSpeed = 1f;
+    public ArrayList notasCapturadas = new ArrayList();
 
     public float forceMultiplier , jumpMultiplier;
 
@@ -25,8 +27,8 @@ public class PlayerMovement : MonoBehaviour
         movY = Input.GetAxis("Vertical");
         jump = Input.GetAxis("Jump");
         anim.SetFloat("Speed_X",Mathf.Abs(movX) );
-
-
+        float limitedSpeed = Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed);
+        rb.velocity = new Vector2(limitedSpeed, rb.velocity.y);
         if (movX < 0f)
         {
             transform.localScale = new Vector3(-1.7f, 1.7f, 1f);
@@ -45,6 +47,22 @@ public class PlayerMovement : MonoBehaviour
         if (jump > 0)
         {
             rb.AddForce(Vector2.up * jumpMultiplier, ForceMode2D.Impulse);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision) 
+    {
+        //Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.name.ToString().Contains("nota"))
+        {
+            if (!notasCapturadas.Contains(collision.gameObject.name.ToString()))
+            {
+                notasCapturadas.Add(collision.gameObject.name.ToString());
+            }
+            foreach(string notas in notasCapturadas)
+            {
+                Debug.Log(notas);
+            }
         }
     }
 }
