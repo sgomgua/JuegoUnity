@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.67
@@ -262,6 +266,10 @@ PrefabInstance:
     - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_Name
       value: Suelo (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -435,6 +443,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.7
       objectReference: {fileID: 0}
+    - target: {fileID: 8203859961284542241, guid: ebed51d133af1804d97bbf12101a995f, type: 3}
+      propertyPath: comrobarSuelo
+      value: 
+      objectReference: {fileID: 1835970271}
+    - target: {fileID: 8203859961284542241, guid: ebed51d133af1804d97bbf12101a995f, type: 3}
+      propertyPath: mascaraSuelo.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203859961284542241, guid: ebed51d133af1804d97bbf12101a995f, type: 3}
+      propertyPath: jumpMultiplier
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8203859961284542245, guid: ebed51d133af1804d97bbf12101a995f, type: 3}
       propertyPath: m_Name
       value: Player
@@ -463,6 +483,10 @@ PrefabInstance:
     - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_Name
       value: Suelo (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -989,6 +1013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 42.62
@@ -1204,6 +1232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.67
@@ -1266,6 +1298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.94
@@ -1327,6 +1363,10 @@ PrefabInstance:
     - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_Name
       value: Suelo (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2099,7 +2139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 499074678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Suelos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2158,6 +2198,10 @@ PrefabInstance:
     - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_Name
       value: Suelo (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2221,6 +2265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo2 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.43
@@ -2282,6 +2330,10 @@ PrefabInstance:
     - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_Name
       value: Suelo (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2587,6 +2639,10 @@ PrefabInstance:
     - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_Name
       value: Suelo (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2945,6 +3001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.6
@@ -3250,6 +3310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 42.64
@@ -3316,6 +3380,10 @@ PrefabInstance:
     - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_Name
       value: Suelo2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3520,6 +3588,10 @@ PrefabInstance:
     - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_Name
       value: Suelo2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3868,6 +3940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo2 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 51.28
@@ -4143,7 +4219,7 @@ PrefabInstance:
       objectReference: {fileID: 971864459}
     - target: {fileID: 7807497968957364226, guid: 62f8ee561ebef1745911273b6cecd1db, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.018965356
+      value: 0.01684548
       objectReference: {fileID: 0}
     - target: {fileID: 7807497968957364226, guid: 62f8ee561ebef1745911273b6cecd1db, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4472,7 +4548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5621542011714662862, guid: 0ba7a0420a515bd4da14b676999f1114, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.018965356
+      value: 0.01684548
       objectReference: {fileID: 0}
     - target: {fileID: 5621542011714662862, guid: 0ba7a0420a515bd4da14b676999f1114, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4526,6 +4602,10 @@ PrefabInstance:
     - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_Name
       value: Suelo (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4995,6 +5075,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.81
@@ -5056,6 +5140,10 @@ PrefabInstance:
     - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_Name
       value: Suelo2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5638,6 +5726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo2 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 61.11
@@ -5793,6 +5885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.58
@@ -5906,6 +6002,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4594649699821087089, guid: 6054fa38bde3b0b4dbd670604f71498c, type: 3}
   m_PrefabInstance: {fileID: 1799572558}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1835970270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1835970271}
+  - component: {fileID: 1835970272}
+  m_Layer: 0
+  m_Name: comprobarSuelo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1835970271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835970270}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.319, z: -283.488}
+  m_LocalScale: {x: 0.58823526, y: 0.58823526, z: 1}
+  m_Children: []
+  m_Father: {fileID: 971864459}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1835970272
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835970270}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 7
 --- !u!1 &1851683986 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3267831674555902344, guid: 6054fa38bde3b0b4dbd670604f71498c, type: 3}
@@ -5947,6 +6090,10 @@ PrefabInstance:
     - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_Name
       value: Suelo (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6129,6 +6276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SueloMove (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5978108043956258154, guid: 026e0a7a22ef7da4ead92882d3c5d9ea, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 026e0a7a22ef7da4ead92882d3c5d9ea, type: 3}
 --- !u!4 &1913483766 stripped
@@ -6146,6 +6297,10 @@ PrefabInstance:
     - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_Name
       value: Suelo2 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6208,6 +6363,10 @@ PrefabInstance:
     - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_Name
       value: Suelo2 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6496,6 +6655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo2
       objectReference: {fileID: 0}
+    - target: {fileID: 3593042217520746146, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8457020220245252448, guid: 1719074882e11214ba8cea938c5dbfd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.86
@@ -6672,6 +6835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo
       objectReference: {fileID: 0}
+    - target: {fileID: 4587352221536045543, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6089552316103950100, guid: bb117b1f7439ed241a7d00d23326286c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.87
@@ -6842,6 +7009,10 @@ PrefabInstance:
     - target: {fileID: 5978108043956258154, guid: 026e0a7a22ef7da4ead92882d3c5d9ea, type: 3}
       propertyPath: m_Name
       value: SueloMove
+      objectReference: {fileID: 0}
+    - target: {fileID: 5978108043956258154, guid: 026e0a7a22ef7da4ead92882d3c5d9ea, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 026e0a7a22ef7da4ead92882d3c5d9ea, type: 3}
